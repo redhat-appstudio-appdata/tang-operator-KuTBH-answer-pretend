@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: tang-operator
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/sarroutb-tenant/tang-operator/tang-operator@sha256:2f0473cd2e34a3e05b8b2a1953769a46fe65121b99a4fd4667f9c1ea7ff3783f
         imagePullPolicy: Always
         name: container-image
         ports:
